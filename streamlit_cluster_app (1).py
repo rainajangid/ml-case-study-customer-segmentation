@@ -8,7 +8,7 @@ import joblib
 from sklearn.decomposition import PCA
 
 # Load data and model
-df = pd.read_csv("segmented_customers.csv")
+df = pd.read_csv("segmented_customers(1).csv")
 scaler, kmeans = joblib.load("kmeans_pipeline.pkl")
 
 # Title
